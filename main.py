@@ -75,6 +75,7 @@ class WordGame:
                    self.word_history.add(word)
                    self.last_letter = self.get_last_valid_letter(word)
            print(f"Історія слів завантажена з файлу: {self.save_file}")
+           print(f"Останнє слово: {word}")
        else:
            print("Файл з історією не знайдено, починаємо нову гру.")
 
